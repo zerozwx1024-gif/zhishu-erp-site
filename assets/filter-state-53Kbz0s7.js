@@ -1,0 +1,1 @@
+function e(e,t){return!e||typeof e!=`object`||Object.assign(e,t||{}),e}export{e as t};

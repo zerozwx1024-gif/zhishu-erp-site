@@ -1,0 +1,1 @@
+var e={idle:`info`,pending:`warning`,running:`warning`,success:`success`,partial:`warning`,failed:`danger`},t={idle:`未开始`,pending:`等待中`,running:`进行中`,success:`成功`,partial:`部分成功`,failed:`失败`};function n(e){let t=String(e??``).trim().toLocaleLowerCase();return!t||t===`null`?`idle`:t}function r(r){let i=n(r);return{label:t[i]||i,type:e[i]||`info`}}export{r as t};
